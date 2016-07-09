@@ -9,7 +9,7 @@ apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E8
 echo 'deb https://apt.dockerproject.org/repo ubuntu-xenial main' >/etc/apt/sources.list.d/docker.list
 apt-get update -y
 apt-get purge lxc-docker
-apt-get install linux-image-extra-$(uname -r)
-apt-get install docker-engine
+apt-get install -y linux-image-extra-$(uname -r)
+apt-get install -y docker-engine
 usermod -aG docker ubuntu
 service docker restart
