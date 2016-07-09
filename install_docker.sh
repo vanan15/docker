@@ -1,6 +1,8 @@
 #!/bin/bash
 
 ### Install Docker on Ubuntu 16.04
+### curl -s https://raw.githubusercontent.com/vanan15/docker/master/install_docker.sh |bash
+
 apt-get update -y
 apt-get install -y apt-transport-https ca-certificates
 apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
