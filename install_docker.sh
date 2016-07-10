@@ -13,3 +13,5 @@ apt-get install -y linux-image-extra-$(uname -r)
 apt-get install -y docker-engine
 usermod -aG docker ubuntu
 service docker restart
+### Some utils
+apt-get install -y awscli git zip unzip
