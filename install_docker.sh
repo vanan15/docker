@@ -1,6 +1,6 @@
 #!/bin/bash
 
-### Install Docker on Ubuntu 16.04
+### Install Docker on (ONLY) Ubuntu 16.04
 ### curl -s https://raw.githubusercontent.com/vanan15/docker/master/install_docker.sh |bash
 
 apt-get update -y
