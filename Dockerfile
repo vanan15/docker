@@ -1,7 +1,7 @@
 # A basic apache server. To use either add or bind mount content under /var/www
 FROM ubuntu:12.04
 
-MAINTAINER An Dinh version: 0.4
+MAINTAINER An Dinh version: 0.5
 
 RUN apt-get update && apt-get install -y apache2 git && apt-get clean && rm -rf /var/lib/apt/lists/* \
 && cd /var \
